@@ -1,0 +1,8 @@
+redis:
+  host: localhost
+  port: 6379
+spring:
+  application:
+    name: durequest
+server:
+  port: 8888
