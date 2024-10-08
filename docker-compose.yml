@@ -1,0 +1,7 @@
+version: "3.2"
+services:
+  redis:
+    container_name: demo-service-redis
+    image: redis:6.2.5
+    ports:
+      - '6379:6379'
